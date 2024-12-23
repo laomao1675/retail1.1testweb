@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>無限循環影片 (1:1)</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* 背景色設定為黑色，讓影片更突出 */
+        }
+        video {
+            width: 50vmin; /* 設定影片寬度為視口最小邊的 50% */
+            height: 50vmin; /* 設定影片高度為視口最小邊的 50% */
+            object-fit: cover; /* 確保影片不會變形 */
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="video1.1retail.mp4" type="video/mp4">
+        您的瀏覽器不支援 HTML5 影片標籤。
+    </video>
+</body>
+</html>
